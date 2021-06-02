@@ -1,0 +1,141 @@
+body{
+    background:url(background.jpg)no-repeat ;
+    background-size:100% 100%;
+}
+.topimg{
+    padding: block;
+    display: inline-block;
+    margin: 0 350px;
+}
+.firsttitle{
+    margin: 150px 150px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: center;
+    padding: block;
+    text-align: center;
+    text-decoration: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 100px;
+}
+.imagemtitle{
+    margin: center;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    transition: 1s auto;
+    padding: block;
+}
+.imagemtitle:hover{
+	color: blue;
+    box-shadow: 0.1px 2px 0.1px black;
+	transform: scale(1.1);
+}
+.title:hover{
+    color:black;
+    box-shadow: 0.1px 0.1px 0.1px black;
+    transform: scale(1.5);
+}
+.legend{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    position: 0 150px;
+    padding: 0 100px;
+    display: inline-block;
+}
+.legend2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: 0 20px;
+    padding: 5px 160px;
+    display: inline-block;
+    margin: 20px 20px;
+    color:black;
+    border: blue;
+}
+.legend2:hover{
+    color: blue;
+    box-shadow: black;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+#text1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    border: 20% 20%;
+    border: 2px blue;
+    cursor: pointer;
+    padding: 5% 5%;
+    font-size: 20px;
+    margin: 1px;
+}
+#text1:hover{
+    color: black;
+    transform: scale(1);
+}
+#text2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    border: 2px blue;
+    cursor: pointer;
+    padding: 5% 5%;
+    font-size: 20px;
+    margin: 1px;
+
+}
+#text2:hover{
+    color: black;
+    transform: scale(1);
+}
+#buton1{
+    font-size: 20px;
+    margin: 0 275px;
+    position: center;
+}
+#buton1:hover{
+    color: blue;
+    transition: 1s 0;
+}
+.input{
+    width: 500px;
+    height: 300px;
+    margin: 100px;
+    border-radius: 2px;
+}
+#buton2{
+    font-size: 30px;
+    margin: 0 500px;
+    position: center;
+}
+#buton2:hover{
+    color: blue;
+    transition: 1s 0;
+}
+#termos{
+    position: relative;
+    padding: 0 20px;
+}
+#caixinha{
+    font-size: 20px;
+    margin: 20px 300px;
+    position: relative;
+    padding: 0 100px;
+}
+#textcaixinha{
+    font-size: 20px;
+    margin: 20px 30px;
+    position: relative;
+    padding: 0 50px;
+}
+#cadastrar{
+    font-size: 20px;
+    padding: 20px 100px;
+
+}
